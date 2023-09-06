@@ -1,0 +1,224 @@
+.container-pagecard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.img-button {
+    display: flex;
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+.img-button button{
+    margin-top: 155px;
+    color: #a0fd16;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border: solid 1px #a0fd16;
+    border-radius: 50%;
+}
+.img-button img{
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 262px;
+    height: 346px;
+    border-radius: 10px;
+    border: solid 1px #a0fd16;
+}
+.pic-list {
+    margin-left: 55px;
+    margin-top: 35px;
+}
+.pic-list img{
+    margin-right: 10px;
+    width: 73px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+}
+
+.name-card {
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+
+    margin-top: 160px;
+    width: 812px;
+    height: 63px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+}
+
+.payment {
+    margin-top: 20px;
+    width: 409px;
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #fff;
+    border: solid 1px #a0fd16;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.price {
+    margin-top: 25px;
+    width: 168px;
+
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #fff;
+    border: solid 1px #a0fd16;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.card-desc button{
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #a0fd16;
+
+    margin-top: 50px;
+    background-color: transparent;
+    width: 135px;
+    height: 47px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+}
+.desc-data {
+
+    display: flex;
+
+}
+.desc-data div{
+    width: 619px;
+    height: 39px;
+    border-radius: 7px;
+    border: solid 1px #a0fd16;
+}
+
+.desc-container {
+    max-width: 1600px;
+    margin-left: 250px;
+    margin-top: 50px;
+
+}
+.desc-container p{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #fff;
+
+}
+
+.desc-text {
+    margin-top: 35px;
+    width: 1237px;
+    max-height: 377px;
+    border-radius: 7px;
+    border: solid 1px #a0fd16;
+}
+
+.desc-text p {
+    width: 1220px;
+    text-align: justify;
+    font-size: 23px;
+    margin-left: 5px;
+}
+.feedback-container {
+    margin-left: 270px;
+}
+.fd-button button{
+    margin-right: 10px;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #a0fd16;
+    width: 297px;
+    height: 41px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+}
+
+.cs-img img{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: solid 1px #a0fd16;
+}
+
+.fd__inner {
+    display: flex;
+}
+.fd-block {
+    margin-right: 19px;
+    padding-top: 25px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: 397px;
+    height: 215px;
+    border-radius: 10px;
+    border: solid 1px #a0fd16;
+    color: #a0fd16;
+    font-family: FuturaPT, sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+
+.img-nick-star {
+    display: flex;
+    /* margin-top: 25px;
+    margin-left: 20px; */
+}
+
+.cs-img img {
+    margin-right: 12px;
+}
+
+.cs-nick {
+    margin-bottom: 7px;
+}
+
+.cs-data {
+    margin-top: 32px;
+}

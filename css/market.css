@@ -1,0 +1,236 @@
+.container-filter {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-card {
+    max-width: 1200px;
+    margin-left: 305px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-filter {
+    margin-top: 107px;
+
+}
+.h-filter p {
+    font-family: FuturaPT, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    color: #a0fd16;
+    align-items: left;
+    justify-content: left;
+}
+
+.filter-list {
+    margin-right: 30px;
+}
+
+.filter-list p {
+    font-family: FuturaPT, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+div input {
+
+    font-family: FuturaPT, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #131313;
+
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 129px;
+    height: 38px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #131313;
+}
+
+.card-border {
+    width: 234px;
+    height: 401px;
+    border-radius: 10px;
+    border: solid 2px #a0fd16;
+    /* margin-right: 90px; */
+}
+
+.img-border {
+    padding: 0 0 0 0;
+    width: 232px;
+    height: 320px;
+    border-radius: 12px;
+    border: solid 3px #a0fd16;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.option-button {
+    padding: 5px 5px 0 0;
+    text-align: right;
+}
+
+.card-border button {
+    /* margin-top: 10px;
+    margin-left: 122px; */
+    font-family: FuturaPT, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    color: #a0fd16;
+    background-color: inherit;
+    padding: 4px 22px 5px 20px;
+    border-radius: 5px;
+    border: solid 2px #a0fd16;
+}
+
+.icon-basket {
+    margin-bottom: -10px;
+    margin-right: 5px;
+}
+
+.logo-user {
+    margin-right: 50px;
+    margin-bottom: -12px;
+    height: 33px;
+    width: 33px;
+    border: solid 2px #a0fd16;
+    border-radius: 50%;
+}
+.card {
+    margin-bottom: 30px;
+}
+.card-desc {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    font-family: FuturaPT, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    color: #a0fd16;
+}
+
+.card-name {
+    margin-right: 6px;
+}
+.button-filter {
+    margin-top: 140px;
+    margin-bottom: 70px;
+    display: flex;
+}
+.button-filter button{
+    margin-right: 20px;
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #a0fd16;
+    
+
+    border-radius: 5px;
+    border: solid 2px #a0fd16;
+    background-color: transparent;
+    
+}
+
+.rating button{
+    width: 176px;
+    height: 42px;
+
+}
+
+.price button{
+    width: 98px;
+    height: 42px;
+    
+}
+
+.rank button{
+    width: 98px;
+    height: 42px;
+}
+
+.pagination {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.button-list button{
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+    background-color: transparent;
+    font-family: FuturaPT, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #a0fd16;
+}
+.pagination button{
+    margin-right: 55px;
+
+}
+.next button{
+    color: #a0fd16;
+    background-color: transparent;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+
+}
+
+.prev button {
+    color: #a0fd16;
+    background-color: transparent;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+    border: solid 1px #a0fd16;
+}

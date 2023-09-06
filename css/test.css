@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+}
+
+.container-animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.info {
+  background-color: rgba(49, 47, 47, 0.8);
+  padding: 25px;
+  position: absolute;
+  bottom: 0;
+  top: 70%;
+  left: 0;
+  right: 0;
+  transition: all 1s;
+  border-radius: 0 0 50px 50px;
+}
+
+.container-animation:hover .info {
+  top: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+p {
+  color: white;
+  word-spacing: 3px;
+}
+
+.link-market a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
